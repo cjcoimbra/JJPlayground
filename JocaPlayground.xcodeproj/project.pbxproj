@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1B92FC1B86430C00A186C5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1B92FB1B86430C00A186C5 /* Utils.m */; };
+		AA1B92FE1B86820C00A186C5 /* DST-GameOn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA1B92FD1B86820C00A186C5 /* DST-GameOn.mp3 */; };
+		AA504EFD1B84267D00AB2524 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA504EFC1B84267D00AB2524 /* MainMenuViewController.m */; };
+		AA504F001B84269200AB2524 /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA504EFF1B84269200AB2524 /* PuzzleViewController.m */; };
+		AA5168D21B82641A00136423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5168D11B82641A00136423 /* main.m */; };
+		AA5168D51B82641A00136423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5168D41B82641A00136423 /* AppDelegate.m */; };
+		AA5168D81B82641A00136423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5168D71B82641A00136423 /* ViewController.m */; };
+		AA5168DB1B82641A00136423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5168D91B82641A00136423 /* Main.storyboard */; };
+		AA5168DD1B82641A00136423 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5168DC1B82641A00136423 /* Images.xcassets */; };
+		AA5168E01B82641A00136423 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA5168DE1B82641A00136423 /* LaunchScreen.xib */; };
+		AA5168EC1B82641A00136423 /* JocaPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5168EB1B82641A00136423 /* JocaPlaygroundTests.m */; };
+		AA5168F91B8264DE00136423 /* chassi_01_base.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5168F71B8264DE00136423 /* chassi_01_base.png */; };
+		AA5168FA1B8264DE00136423 /* chassi_01_canvas.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5168F81B8264DE00136423 /* chassi_01_canvas.png */; };
+		AA5168FC1B8268F000136423 /* chassi_01.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5168FB1B8268F000136423 /* chassi_01.png */; };
+		AA5169011B8287D900136423 /* chassi_02.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5168FF1B8287D800136423 /* chassi_02.png */; };
+		AA5169021B8287D900136423 /* chassi_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5169001B8287D900136423 /* chassi_03.png */; };
+		AA5169041B82885000136423 /* roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5169031B82885000136423 /* roda.png */; };
+		AA5169081B8289ED00136423 /* chassi_01_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5169051B8289ED00136423 /* chassi_01_com_roda.png */; };
+		AA5169091B8289ED00136423 /* chassi_02_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5169061B8289ED00136423 /* chassi_02_com_roda.png */; };
+		AA51690A1B8289ED00136423 /* chassi_03_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5169071B8289ED00136423 /* chassi_03_com_roda.png */; };
+		AA51690C1B828D6A00136423 /* chassi_04_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA51690B1B828D6A00136423 /* chassi_04_com_roda.png */; };
+		AA53B4451B85180B00BC2F5E /* chassi_05_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA53B4421B85180B00BC2F5E /* chassi_05_com_roda.png */; };
+		AA53B4461B85180B00BC2F5E /* chassi_06_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA53B4431B85180B00BC2F5E /* chassi_06_com_roda.png */; };
+		AA53B4471B85180B00BC2F5E /* chassi_07_com_roda.png in Resources */ = {isa = PBXBuildFile; fileRef = AA53B4441B85180B00BC2F5E /* chassi_07_com_roda.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5168E61B82641A00136423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5168C41B82641A00136423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5168CB1B82641A00136423;
+			remoteInfo = JocaPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1B92FA1B86430C00A186C5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		AA1B92FB1B86430C00A186C5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		AA1B92FD1B86820C00A186C5 /* DST-GameOn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DST-GameOn.mp3"; sourceTree = "<group>"; };
+		AA504EFB1B84267D00AB2524 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		AA504EFC1B84267D00AB2524 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		AA504EFE1B84269200AB2524 /* PuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleViewController.h; sourceTree = "<group>"; };
+		AA504EFF1B84269200AB2524 /* PuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleViewController.m; sourceTree = "<group>"; };
+		AA5168CC1B82641A00136423 /* JocaPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JocaPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5168D01B82641A00136423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5168D11B82641A00136423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5168D31B82641A00136423 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5168D41B82641A00136423 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5168D61B82641A00136423 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA5168D71B82641A00136423 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA5168DA1B82641A00136423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5168DC1B82641A00136423 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA5168DF1B82641A00136423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA5168E51B82641A00136423 /* JocaPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JocaPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5168EA1B82641A00136423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5168EB1B82641A00136423 /* JocaPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JocaPlaygroundTests.m; sourceTree = "<group>"; };
+		AA5168F71B8264DE00136423 /* chassi_01_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_01_base.png; sourceTree = "<group>"; };
+		AA5168F81B8264DE00136423 /* chassi_01_canvas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_01_canvas.png; sourceTree = "<group>"; };
+		AA5168FB1B8268F000136423 /* chassi_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_01.png; sourceTree = "<group>"; };
+		AA5168FF1B8287D800136423 /* chassi_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_02.png; sourceTree = "<group>"; };
+		AA5169001B8287D900136423 /* chassi_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_03.png; sourceTree = "<group>"; };
+		AA5169031B82885000136423 /* roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roda.png; sourceTree = "<group>"; };
+		AA5169051B8289ED00136423 /* chassi_01_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_01_com_roda.png; sourceTree = "<group>"; };
+		AA5169061B8289ED00136423 /* chassi_02_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_02_com_roda.png; sourceTree = "<group>"; };
+		AA5169071B8289ED00136423 /* chassi_03_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_03_com_roda.png; sourceTree = "<group>"; };
+		AA51690B1B828D6A00136423 /* chassi_04_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_04_com_roda.png; sourceTree = "<group>"; };
+		AA53B4421B85180B00BC2F5E /* chassi_05_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_05_com_roda.png; sourceTree = "<group>"; };
+		AA53B4431B85180B00BC2F5E /* chassi_06_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_06_com_roda.png; sourceTree = "<group>"; };
+		AA53B4441B85180B00BC2F5E /* chassi_07_com_roda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chassi_07_com_roda.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5168C91B82641A00136423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5168E21B82641A00136423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1B92F91B8642F200A186C5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B92FA1B86430C00A186C5 /* Utils.h */,
+				AA1B92FB1B86430C00A186C5 /* Utils.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		AA504F011B84269700AB2524 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA5168D61B82641A00136423 /* ViewController.h */,
+				AA5168D71B82641A00136423 /* ViewController.m */,
+				AA504EFB1B84267D00AB2524 /* MainMenuViewController.h */,
+				AA504EFC1B84267D00AB2524 /* MainMenuViewController.m */,
+				AA504EFE1B84269200AB2524 /* PuzzleViewController.h */,
+				AA504EFF1B84269200AB2524 /* PuzzleViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AA5168C31B82641A00136423 = {
+			isa = PBXGroup;
+			children = (
+				AA5168CE1B82641A00136423 /* JocaPlayground */,
+				AA5168E81B82641A00136423 /* JocaPlaygroundTests */,
+				AA5168CD1B82641A00136423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5168CD1B82641A00136423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5168CC1B82641A00136423 /* JocaPlayground.app */,
+				AA5168E51B82641A00136423 /* JocaPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5168CE1B82641A00136423 /* JocaPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B92F91B8642F200A186C5 /* Util */,
+				AA504F011B84269700AB2524 /* Controllers */,
+				AA5168F51B82648500136423 /* Imagens */,
+				AA5168D31B82641A00136423 /* AppDelegate.h */,
+				AA5168D41B82641A00136423 /* AppDelegate.m */,
+				AA5168D91B82641A00136423 /* Main.storyboard */,
+				AA5168DC1B82641A00136423 /* Images.xcassets */,
+				AA5168DE1B82641A00136423 /* LaunchScreen.xib */,
+				AA5168CF1B82641A00136423 /* Supporting Files */,
+			);
+			path = JocaPlayground;
+			sourceTree = "<group>";
+		};
+		AA5168CF1B82641A00136423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1B92FD1B86820C00A186C5 /* DST-GameOn.mp3 */,
+				AA5168D01B82641A00136423 /* Info.plist */,
+				AA5168D11B82641A00136423 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5168E81B82641A00136423 /* JocaPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5168EB1B82641A00136423 /* JocaPlaygroundTests.m */,
+				AA5168E91B82641A00136423 /* Supporting Files */,
+			);
+			path = JocaPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		AA5168E91B82641A00136423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA5168EA1B82641A00136423 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5168F51B82648500136423 /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				AA5169031B82885000136423 /* roda.png */,
+				AA5168F61B8264BD00136423 /* Chassi */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+		AA5168F61B8264BD00136423 /* Chassi */ = {
+			isa = PBXGroup;
+			children = (
+				AA53B4421B85180B00BC2F5E /* chassi_05_com_roda.png */,
+				AA53B4431B85180B00BC2F5E /* chassi_06_com_roda.png */,
+				AA53B4441B85180B00BC2F5E /* chassi_07_com_roda.png */,
+				AA51690B1B828D6A00136423 /* chassi_04_com_roda.png */,
+				AA5169051B8289ED00136423 /* chassi_01_com_roda.png */,
+				AA5169061B8289ED00136423 /* chassi_02_com_roda.png */,
+				AA5169071B8289ED00136423 /* chassi_03_com_roda.png */,
+				AA5168FF1B8287D800136423 /* chassi_02.png */,
+				AA5169001B8287D900136423 /* chassi_03.png */,
+				AA5168FB1B8268F000136423 /* chassi_01.png */,
+				AA5168F71B8264DE00136423 /* chassi_01_base.png */,
+				AA5168F81B8264DE00136423 /* chassi_01_canvas.png */,
+			);
+			name = Chassi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5168CB1B82641A00136423 /* JocaPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5168EF1B82641A00136423 /* Build configuration list for PBXNativeTarget "JocaPlayground" */;
+			buildPhases = (
+				AA5168C81B82641A00136423 /* Sources */,
+				AA5168C91B82641A00136423 /* Frameworks */,
+				AA5168CA1B82641A00136423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JocaPlayground;
+			productName = JocaPlayground;
+			productReference = AA5168CC1B82641A00136423 /* JocaPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5168E41B82641A00136423 /* JocaPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5168F21B82641A00136423 /* Build configuration list for PBXNativeTarget "JocaPlaygroundTests" */;
+			buildPhases = (
+				AA5168E11B82641A00136423 /* Sources */,
+				AA5168E21B82641A00136423 /* Frameworks */,
+				AA5168E31B82641A00136423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5168E71B82641A00136423 /* PBXTargetDependency */,
+			);
+			name = JocaPlaygroundTests;
+			productName = JocaPlaygroundTests;
+			productReference = AA5168E51B82641A00136423 /* JocaPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5168C41B82641A00136423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Spacecat Studio";
+				TargetAttributes = {
+					AA5168CB1B82641A00136423 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AA5168E41B82641A00136423 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AA5168CB1B82641A00136423;
+					};
+				};
+			};
+			buildConfigurationList = AA5168C71B82641A00136423 /* Build configuration list for PBXProject "JocaPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5168C31B82641A00136423;
+			productRefGroup = AA5168CD1B82641A00136423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5168CB1B82641A00136423 /* JocaPlayground */,
+				AA5168E41B82641A00136423 /* JocaPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5168CA1B82641A00136423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA51690C1B828D6A00136423 /* chassi_04_com_roda.png in Resources */,
+				AA1B92FE1B86820C00A186C5 /* DST-GameOn.mp3 in Resources */,
+				AA53B4471B85180B00BC2F5E /* chassi_07_com_roda.png in Resources */,
+				AA5168DB1B82641A00136423 /* Main.storyboard in Resources */,
+				AA5168FC1B8268F000136423 /* chassi_01.png in Resources */,
+				AA5169041B82885000136423 /* roda.png in Resources */,
+				AA5168E01B82641A00136423 /* LaunchScreen.xib in Resources */,
+				AA53B4451B85180B00BC2F5E /* chassi_05_com_roda.png in Resources */,
+				AA5169011B8287D900136423 /* chassi_02.png in Resources */,
+				AA53B4461B85180B00BC2F5E /* chassi_06_com_roda.png in Resources */,
+				AA51690A1B8289ED00136423 /* chassi_03_com_roda.png in Resources */,
+				AA5168FA1B8264DE00136423 /* chassi_01_canvas.png in Resources */,
+				AA5169021B8287D900136423 /* chassi_03.png in Resources */,
+				AA5168F91B8264DE00136423 /* chassi_01_base.png in Resources */,
+				AA5168DD1B82641A00136423 /* Images.xcassets in Resources */,
+				AA5169091B8289ED00136423 /* chassi_02_com_roda.png in Resources */,
+				AA5169081B8289ED00136423 /* chassi_01_com_roda.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5168E31B82641A00136423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5168C81B82641A00136423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA504EFD1B84267D00AB2524 /* MainMenuViewController.m in Sources */,
+				AA5168D81B82641A00136423 /* ViewController.m in Sources */,
+				AA5168D51B82641A00136423 /* AppDelegate.m in Sources */,
+				AA1B92FC1B86430C00A186C5 /* Utils.m in Sources */,
+				AA5168D21B82641A00136423 /* main.m in Sources */,
+				AA504F001B84269200AB2524 /* PuzzleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5168E11B82641A00136423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5168EC1B82641A00136423 /* JocaPlaygroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5168E71B82641A00136423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5168CB1B82641A00136423 /* JocaPlayground */;
+			targetProxy = AA5168E61B82641A00136423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5168D91B82641A00136423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5168DA1B82641A00136423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5168DE1B82641A00136423 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5168DF1B82641A00136423 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5168ED1B82641A00136423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5168EE1B82641A00136423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5168F01B82641A00136423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JocaPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5168F11B82641A00136423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JocaPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA5168F31B82641A00136423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JocaPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JocaPlayground.app/JocaPlayground";
+			};
+			name = Debug;
+		};
+		AA5168F41B82641A00136423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JocaPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JocaPlayground.app/JocaPlayground";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5168C71B82641A00136423 /* Build configuration list for PBXProject "JocaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5168ED1B82641A00136423 /* Debug */,
+				AA5168EE1B82641A00136423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5168EF1B82641A00136423 /* Build configuration list for PBXNativeTarget "JocaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5168F01B82641A00136423 /* Debug */,
+				AA5168F11B82641A00136423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5168F21B82641A00136423 /* Build configuration list for PBXNativeTarget "JocaPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5168F31B82641A00136423 /* Debug */,
+				AA5168F41B82641A00136423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5168C41B82641A00136423 /* Project object */;
+}
